@@ -10,7 +10,7 @@ class App < Sinatra::Base
   
   post '/food' do
     "Greetings #{params[:name]}, who's favorite food is #{params[:favorite_food]}"
-    params.to_s
+    #params.to_s
   end
 
 end
